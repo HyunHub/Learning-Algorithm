@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// 자연수의 합
+
 int main() {
 	int a,b,i, sum=0;
 	

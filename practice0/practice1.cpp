@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//1. 1ºÎÅÍ N±îÁöÀÇ MÀÇ ¹è¼ö ÇÕ  
+//1. 1부터 N까지 M의 배수의 합 
 
 int main() {
 	int n, m, i, sum =0;

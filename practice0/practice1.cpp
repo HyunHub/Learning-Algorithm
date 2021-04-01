@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//1. 1ºÎÅÍ N±îÁöÀÇ MÀÇ ¹è¼ö ÇÕ 
+//1. 1ÂºÃÃ…Ã NÂ±Ã®ÃÃ¶Ã€Ã‡ MÃ€Ã‡ Â¹Ã¨Â¼Ã¶ Ã‡Ã•  
 
 int main() {
 	int n, m, i, sum =0;

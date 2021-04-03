@@ -1,6 +1,8 @@
 #include <stdio.h>
 using namespace std;
 
+// 자릿수의 합
+
 int digit_sum(int x) {
 	int tmp, sum =0;
 	while(x >0) {
@@ -24,7 +26,7 @@ int main(){
 			max = sum;
 			res = num;
 		}
-		else if(sum == max) {
+		else if(sum == max) { // 자릿수의 합이 같으면 큰 수 출력
 			if(num > res) res = num;
 		}
 	}

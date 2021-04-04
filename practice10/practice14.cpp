@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// µÚÁıÀº ¼Ò¼ö 
+// ì†Œìˆ˜ì˜ ê°œìˆ˜
 
 int reverse(int x) {
 	int res= 0;

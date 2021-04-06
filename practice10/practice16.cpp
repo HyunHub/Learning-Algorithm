@@ -2,7 +2,7 @@
 #include <algorithm> // exit(0)
 
 // Anagram
-// ´ë¹®ÀÚ 65-90 ¼Ò¹®ÀÚ 97-122  
+// ëŒ€ë¬¸ì 65-90 ì†Œë¬¸ì 97-122  
 int a[60], b[60];
 int main() {
 	char str[100];

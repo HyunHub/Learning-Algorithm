@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 카드 게임 
+// 移대뱶 
 
 int main() {
 	

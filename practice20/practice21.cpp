@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 카드 
+// 카드 게임 
 
 int main() {
 	

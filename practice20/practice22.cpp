@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <vector>
 using namespace std;
-// ¿ÂµµÀÇ ÃÖ´ë°ª
+
+// ì˜¨ë„ì˜ ìµœëŒ€ê°’
 
 int main() {
 	

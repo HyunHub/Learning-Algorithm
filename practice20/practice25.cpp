@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 
-// ¼®Â÷ ±¸ÇÏ±â brute force
+// ì„ì°¨ êµ¬í•˜ê¸° brute force
  
 int main() {
 	

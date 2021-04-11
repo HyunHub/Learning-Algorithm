@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-// N!¿¡¼­ ¿¬¼ÓµÈ 0ÀÇ °³¼ö 
+// N!ì—ì„œ ì—°ì†ëœ 0ì˜ ê°œìˆ˜ 
 
 int main(){
 	

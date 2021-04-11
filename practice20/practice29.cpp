@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-// 3ÀÇ °³¼ö´Â? small 
+// 3ì˜ ê°œìˆ˜ëŠ”? small 
 
 int main() {
 	

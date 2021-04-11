@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// n!ÀÇ Ç¥Çö¹ı
+// n!ì˜ 
 
 int main() {
 	

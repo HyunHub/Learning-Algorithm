@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// n!의 
+// n!의 표현법
 
 int main() {
 	

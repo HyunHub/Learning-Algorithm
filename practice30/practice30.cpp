@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <vector>
 
-// 3ÀÇ °³¼ö´Â? large 
+// 3ì˜ ê°œìˆ˜ëŠ”? large 
 
 int main() {
 	

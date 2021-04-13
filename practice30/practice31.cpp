@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 탄화수소 
+// 탄화수소 질량 
 
 int main() {
 	

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// ╪╠ец а╓╥д
+// Л└═М┐² Л═∙К═╛ 
 
 int main() {
 	

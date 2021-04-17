@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// insertion sort
+// insertion sort 
 
 int main() {
 	

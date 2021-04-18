@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// bubble sort
+// bubble sort 버블 정렬 
 
 int main() {
 	

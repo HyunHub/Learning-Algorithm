@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 선택 정렬 
+// selection sort 선택 정렬 
 
 int main() {
 	

@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// ╣н ╧Х©╜ гуд║╠Б  
+// К▒░ К╟╟Л≈╢ М∙╘Л╧≤Й╦╟   
 int a[101], b[101], c[300];
 int main() {
 	

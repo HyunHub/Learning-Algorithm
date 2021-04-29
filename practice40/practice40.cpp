@@ -3,8 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-// ±³ÁıÇÕ(ÅõÆ÷ÀÎÅÍ ¾Ë°í¸®Áò)
+// êµì§‘í•©(íˆ¬í¬ì¸í„° ì•Œê³ ë¦¬ì¦˜)
   
 int main() {
+	
 	
 }

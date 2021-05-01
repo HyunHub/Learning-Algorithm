@@ -3,9 +3,26 @@
 #include <algorithm>
 using namespace std;
 
-// êµì§‘í•©(íˆ¬í¬ì¸í„° ì•Œê³ ë¦¬ì¦˜)
+// ±³ÁıÇÕ(ÅõÆ÷ÀÎÅÍ ¾Ë°í¸®Áò)
   
 int main() {
 	
+	int n, m, i;
+
+	scanf("%d", &n);
+	
+	int a[n];
+	
+	for(i=1;i<=n;i++) {
+		scanf("%d", &a[i]);
+	} 
+
+	scanf("%d", &m);
+	
+	int b[m];
+	
+	for(i=1;i<=m;i++) {
+		scanf("%d", &b[i]);
+	} 
 	
 }

@@ -3,26 +3,48 @@
 #include <algorithm>
 using namespace std;
 
-// 교집합(투포인터 알고리즘)
+// 교집합(투포인터 알고리즘 two pointers) 
   
 int main() {
 	
-	int n, m, i;
+	int n, m, i, tmp, p1=0, p2=0, p3=0;
 
 	scanf("%d", &n);
 	
-	int a[n];
+	vector<int> a(n);
 	
-	for(i=1;i<=n;i++) {
+	for(i=0;i<n;i++) {
 		scanf("%d", &a[i]);
 	} 
-
+	
+	// algorithm에서 제공 quick 정렬 
+	// 시작점, 끝나는 점 - 기본 오름차순  
+	sort(a.begin(), a.end());
+	
 	scanf("%d", &m);
 	
-	int b[m];
+	vector<int> b(m), c(n+m);
 	
-	for(i=1;i<=m;i++) {
+	for(i=0;i<m;i++) {
 		scanf("%d", &b[i]);
 	} 
+	
+	sort(b.begin(),b.end());
+
+	while(p1<n && p2<m) {
+		if(a[p1] < b[p2]) p1++;
+		else if(a[p1] == b[p2]) {
+			c[p3++] = a[p1++];
+			p2++;
+		}
+		else p2++;
+	}
+	
+	for(i=0; i<p3; i++) {
+		printf("%d ", c[i]);
+	}
+	
+	return 0;
+
 	
 }

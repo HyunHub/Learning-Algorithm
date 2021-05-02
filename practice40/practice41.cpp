@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// ì—°ì†ëœ ìì—°ìˆ˜ì˜ í•© 
+// ¿¬¼ÓµÈ ÀÚ¿¬¼öÀÇ ÇÕ
  
 int main() {
 	
@@ -25,6 +25,8 @@ int main() {
 			cnt++;
 		} 
 	} 
+	
+	printf("%d ", cnt); 
 	 
 	return 0;
 	

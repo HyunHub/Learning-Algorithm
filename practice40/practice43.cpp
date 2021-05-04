@@ -22,17 +22,19 @@ int Count(int s) {
 int main() {
 	
 	int m, i, lt=1, rt=0, mid, res;
+	int maxx = -2147000000;
 	
 	scanf("%d %d", &n, &m);
 	
 	for(i=1; i<=n; i++) {
 		scanf("%d", &a[i]);
 		rt = rt +a[i];
+		if(a[i]>maxx) maxx=a[i];
 	}
 	
 	while(lt <= rt) {
 		mid = (lt+rt)/2;
-		if(Count(mid) <= m) {
+		if(mid>=maxx && Count(mid) <= m) {
 			res = mid;
 			rt = mid-1;
 		}

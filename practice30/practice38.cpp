@@ -43,7 +43,7 @@ int main() {
 		pos=i;
 		for(j=1; j<=is[i]; j++) {
 			os[pos] = os[pos+1];
-			pos++;
+			pos+x+;
 		}
 		os[pos] = i;
 	}

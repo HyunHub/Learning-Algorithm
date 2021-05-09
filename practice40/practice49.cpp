@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// 블록의 
+// 블록의 최댓값 
 
 int a[11][11]; 
 int main() {

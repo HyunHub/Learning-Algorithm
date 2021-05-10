@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// ¿µÁö(territory) ¼±ÅÃ : small. brute force
+// ì˜ì§€(territory) ì„ íƒ : small. brute force
 
 int a[51][51];
 int main() {

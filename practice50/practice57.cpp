@@ -4,7 +4,7 @@
 #include<stack> 
 using namespace std;
 
-// Àç±ÍÇÔ¼ö ÀÌÁø¼ö Ãâ·Â
+// ì¬ê·€í•¨ìˆ˜ ì´ì§„ìˆ˜ ì¶œë ¥ 
  
 void D(int x) {
 	

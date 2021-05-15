@@ -3,10 +3,10 @@
 #include <algorithm>
 using namespace std;
 
-// ºÎºĞÁıÇÕ(DFS) 
+// ë¶€ë¶„ì§‘í•© (DFS) 
 
 int n, ch[11];
-void DFS(int L) { // TreeÀÇ Level 
+void DFS(int L) { // Treeì˜ Level 
 	int i;
 	
 	if(L==n+1) {

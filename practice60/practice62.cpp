@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// º´ÇÕÁ¤·Ä (ºÐÇÒ Á¤º¹) 
+// ë³‘í•©ì •ë ¬ (ë¶„í•  ì •ë³µ)
  
 int data[10], tmp[10];
 void divide(int lt, int rt) { // left right

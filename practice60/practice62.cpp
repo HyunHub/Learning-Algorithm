@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+// 병합정렬 (분할 정복) 
+ 
 int data[10], tmp[10];
 void divide(int lt, int rt) { // left right
 	int mid;

@@ -3,11 +3,11 @@
 #include <algorithm>
 using namespace std;
 
-// °æ·Î Å½»ö(DFS)
+// ê²½ë¡œ íƒìƒ‰ (DFS)
 
 
 int map[30][30], ch[30], cnt=0, n;
-void DFS(int v) { // Á¤Á¡¹øÈ£  
+void DFS(int v) { // ì •ì  ë²ˆí˜¸   
 	int i;
 	if(v==n) {
 		cnt++;

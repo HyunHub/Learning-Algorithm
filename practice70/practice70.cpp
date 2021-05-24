@@ -4,7 +4,7 @@
 #include <queue>
 using namespace std;
 
-// ±×·¡ÇÁ ÃÖ´Ü°Å¸® (BFS)
+// ê·¸ëž˜í”„ ìµœë‹¨ê±°ë¦¬ (BFS)
 
 int ch[30], dis[30];
 int main() {

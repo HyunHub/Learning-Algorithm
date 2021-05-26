@@ -4,7 +4,7 @@
 #include <queue>
 using namespace std;
 
-// °øÁÖ ±¸ÇÏ±â(queue)
+// ê³µì£¼ êµ¬í•˜ê¸° (queue)
  
 int main() {
 	

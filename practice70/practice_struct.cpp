@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm> 
 using namespace std;
 struct Loc{
 	int x, y, z;
@@ -19,7 +20,15 @@ struct Loc{
 		//  앞에 있는 x는 함수를 호출한 객체의 멤버 x
 		// b.x는 그은 선의 뒤쪽에 있음 
 		// 즉 앞에 게 작고 뒤에 게 크다 니까 오름차순  
-		return x<b.x;
+		// return x<b.x;
+		// 내림차순은 x>b.x  
+		
+		// 호출한 객체와 인자로 넘어온 객체가 같지 않으면 
+		if(x!=b.x) return x<b.x;
+		// 여기로 오면 위에 게 참이 안 되고 종료되지 않아서 온것    
+		if(y!=b.y) return y<b.y;
+		if(z!=b.z) return z<b.z;
+		
 	}
 };
 
@@ -31,6 +40,7 @@ int main() {
 		XY.push_back(Loc(2, 3, 1));
 		XY.push_back(Loc(5, 2, 3));
 		XY.push_back(Loc(3, 1, 6));
+		sort(XY.begin(), XY.end()); // vector 정렬 
 		for(auto pos : XY) cout<<pos.x<<" "<<pos.y<<" "<<pos.z<<endl;
 		
 		return 0; 

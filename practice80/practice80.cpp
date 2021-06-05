@@ -6,7 +6,8 @@
 #include<bits/stdc++.h> 
 using namespace std;
 
-// ´ÙÀÍ½ºÆ®¶ó ¾Ë°í¸®Áò Dijkstra
+// ë‹¤ìµìŠ¤íŠ¸ë¼ ì•Œê³ ë¦¬ì¦˜ Dijkstra
+// ìš°ì„ ìˆœìœ„ í 
 
 struct Edge{
 	int vex;

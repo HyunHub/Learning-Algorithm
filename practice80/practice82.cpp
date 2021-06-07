@@ -6,7 +6,7 @@
 // #include<bits/stdc++.h> 
 using namespace std;
 
-// ¼ø¿­ ±¸ÇÏ±â (DFS: Depth First Search) 
+// ìˆœì—´ êµ¬í•˜ê¸° (DFS: Depth First Search) 
 
 int n, r, cnt=0;
 int a[20], res[20], ch[20];

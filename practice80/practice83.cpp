@@ -6,7 +6,7 @@
 // #include<bits/stdc++.h> 
 using namespace std;
 
-// º¹¸é»ê SEND+MORE=MONEY
+// ë³µë©´ì‚° SEND+MORE=MONEY
 
 int a[10], ch[10];
 int send() {

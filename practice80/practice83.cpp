@@ -6,7 +6,7 @@
 // #include<bits/stdc++.h> 
 using namespace std;
 
-// 복면산 SEND+MORE=MONEY
+// 복면산(숫자를 문자로 숨김) SEND+MORE=MONEY
 
 int a[10], ch[10];
 int send() {

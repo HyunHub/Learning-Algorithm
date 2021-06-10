@@ -6,7 +6,7 @@
  #include<bits/stdc++.h> 
 using namespace std;
 
-// ÈÞ°¡ DFS È°¿ë
+// íœ´ê°€ DFS í™œìš© 
 
 int n, res=-2147000000;
 vector<int> T,P;

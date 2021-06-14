@@ -6,7 +6,7 @@
 // #include<bits/stdc++.h> 
 using namespace std;
 
-// ¼ö½Ä¸¸µé±â DFS È°¿ë 
+// ìˆ˜ì‹ë§Œë“¤ê¸° DFS í™œìš©
 
 int a[20], op[5], n, maxi=-2147000000, mini=2147000000;
 void DFS(int L, int res){

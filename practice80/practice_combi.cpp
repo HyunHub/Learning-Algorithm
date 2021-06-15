@@ -6,7 +6,7 @@
 // #include<bits/stdc++.h> 
 using namespace std;
 
-// Á¶ÇÕ ±¸ÇÏ±â
+// ì¡°í•© êµ¬í•˜ê¸° Combination 
 
 int n, r;
 int ch[20];

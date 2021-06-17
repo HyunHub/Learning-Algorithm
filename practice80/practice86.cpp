@@ -6,7 +6,7 @@
 #include<bits/stdc++.h> 
 using namespace std;
 
-// ÇÇÀÚ ¹è´Ş °Å¸® DFS 
+// í”¼ì ë°°ë‹¬ ê±°ë¦¬ DFS 
 
 vector<pair<int, int> > pz;
 vector<pair<int, int> > hs;

@@ -6,7 +6,7 @@
 //#include<bits/stdc++.h> 
 using namespace std;
 
-// Åä¸¶Åä BFS
+// í† ë§ˆí†  BFS
 
 int m, n, tom[1010][1010], res=-2147000000, dis[1010][1010];
 int dx[4] = {0, 1, 0, -1};

@@ -25,7 +25,7 @@ int main() {
 	for(int i=1; i<=n; i++){
 		for(int j=1; j<=m; j++){
 			scanf("%d", &tom[i][j]);
-			if(tom[i][j]= 1){
+			if(tom[i][j]== 1){
 				Q.push(Loc(i,j));
 			}
 		}
@@ -38,9 +38,9 @@ int main() {
 			int yy=tmp.y+dy[i];
 			if(tom[xx][yy]==0){
 				if(xx>=1 && xx<=n && yy>=1 && yy<=m){
-					Q.push(Loc(xx,yy));
-					tom[xx][yy]=1;
-					dis[xx][yy]=dis[tmp.x][tmp.y]+1;
+					Q.push(Loc(xx, yy));
+					tom[xx][yy]= 1;
+					dis[xx][yy]= dis[tmp.x][tmp.y] +1;
 				}
 			}
 		}

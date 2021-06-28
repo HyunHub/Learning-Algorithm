@@ -9,6 +9,8 @@
 #include <string> 
 using namespace std;
 
+// 네트워크 선 자르기 
+ 
 int main() {
 	
 }

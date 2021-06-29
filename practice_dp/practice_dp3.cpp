@@ -9,7 +9,7 @@
 //#include <string> 
 using namespace std;
 
-// ³×Æ®¿öÅ© ¼± ÀÚ¸£±â Bottom-Up 
+// ë„¤íŠ¸ì›Œí¬ ì„  ìë¥´ê¸° Bottom-Up 
 
 int dy[50];
 int main() {

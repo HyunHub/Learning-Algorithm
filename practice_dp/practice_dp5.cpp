@@ -9,7 +9,7 @@
 //#include <string> 
 using namespace std;
 
-// ÃÖ´ë ºÎºĞ Áõ°¡¼ö¿­
+// ìµœëŒ€ ë¶€ë¶„ ì¦ê°€ìˆ˜ì—´ 
 // LIS : Longest Increasing Subsequence
 
 int main() {

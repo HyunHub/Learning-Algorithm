@@ -9,7 +9,7 @@
 //#include <string> 
 using namespace std;
 
-// °¡¹æ¹®Á¦ (³À»ö ¾Ë°í¸®Áò)
+// ê°€ë°© ë¬¸ì œ ( ëƒ…ìƒ‰ ì•Œê³ ë¦¬ì¦˜ ) 
  
 int main() {
 	

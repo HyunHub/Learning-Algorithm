@@ -9,7 +9,7 @@
 //#include <string> 
 using namespace std;
 
-// µ¿Àü ±³È¯ (³À»ö ¾Ë°í¸®Áò)
+// ë™ì „ êµí™˜(ëƒ…ìƒ‰ ì•Œê³ ë¦¬ì¦˜) 
  
 int main() {
 	ios_base::sync_with_stdio(false);

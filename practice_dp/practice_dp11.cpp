@@ -12,7 +12,5 @@ using namespace std;
 // 최대점수 구하기 (냅색 알고리즘)
  
 int main(){
-
-
 	
 }
